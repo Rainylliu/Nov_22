@@ -1,15 +1,30 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  #artworkContainer {
-    text-align: center;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+#artworkContainer {
+  text-align: center;
+}
+
+#artworkTitle {
+  font-size: 24px;
+}
+
+#artworkImage {
+  width: 700px;
+  height: 700px;
+  margin: 20px 0; 
+}
+
+#artistDisplayName,
+#objectDate {
+  font-size: 18px;
+}
